@@ -27,5 +27,11 @@ int _myunsetenv(info_t *);
 int populate_env_list(info_t *);
 char *_getline(void);
 void hashtag_handle(char *buff);
+char *_strncpy(char *, char *, int);
+char *_strncat(char *, char *, int);
+char *_strchr(char *, char);
+int parse_exit_arguments(char *arg);
+char *_getline(void);
+void hashtag_handle(char *buff);
 
 #endif /* SHELL_H */
