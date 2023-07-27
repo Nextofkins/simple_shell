@@ -20,5 +20,10 @@ void print_command_not_found(const char *command);
 int _myexit(info_t *);
 int _mycd(info_t *);
 int _myhelp(info_t *);
+char *_getenv(info_t *, const char *);
+int _myenv(info_t *);
+int _mysetenv(info_t *);
+int _myunsetenv(info_t *);
+int populate_env_list(info_t *);
 
 #endif /* SHELL_H */
