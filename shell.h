@@ -13,5 +13,8 @@ void display_prompt(void);
 void read_command(char *command);
 void execute_command(const char *command);
 void execute_command(const char *command);
+int _myexit(info_t *);
+int _mycd(info_t *);
+int _myhelp(info_t *);
 
 #endif /* SHELL_H */
