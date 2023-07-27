@@ -33,5 +33,6 @@ char *_strchr(char *s, char c);
 char **get_environ(info_t *);
 int _unsetenv(info_t *, char *);
 int _setenv(info_t *, char *, char *);
+int main(void);
 
 #endif /* SHELL_H */
