@@ -17,5 +17,8 @@ char *find_command_path(const char *command);
 void execute_command_with_path(const char *full_path, const char *command);
 void execute_command(const char *command);
 void print_command_not_found(const char *command);
+int _myexit(info_t *);
+int _mycd(info_t *);
+int _myhelp(info_t *);
 
 #endif /* SHELL_H */
