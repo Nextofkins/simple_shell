@@ -25,5 +25,7 @@ int _myenv(info_t *);
 int _mysetenv(info_t *);
 int _myunsetenv(info_t *);
 int populate_env_list(info_t *);
+char *_getline(void);
+void hashtag_handle(char *buff);
 
 #endif /* SHELL_H */
